@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(./Proxima\ Nova\ ScOsf\ Light.otf);
+}
+
+.collumn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.collumn {
+    display: inline-block;
+    width: 20%;
+    margin: 0 50px;
+    text-align: center;
+}
+.icon{
+    background-color: #1275b9;
+    border: 2px solid #1275b9;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}   
+
+.collumn-header {
+    margin-top: 20px;
+    font-family: "Proxima Nova";
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.collumn-lore {
+    color: #9d9d9d;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.icon:hover {
+    background-color: #fff;
+    border: 2px solid #1275b9
+}
